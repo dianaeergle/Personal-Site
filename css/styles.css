@@ -1,0 +1,201 @@
+body {
+  /*background-color: #ffa299;*/
+  color: #40514E;
+  margin:0;
+  text-align: center;
+  /* text-align: center; will center all the elements*/
+  font-family: 'Merriweather', serif;
+  /*font-size: 1rem;*/
+}
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 2;
+
+  /*margin:0 auto 0 auto;
+  /*this is also a way to center- and be more specific with elements*/
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+/* 1rem and 1 em is 16px. So 2rem is 32px and 3rem is 48px. Therefore,
+if I want 40px then 40px/16px=2.5rem :))   */
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+/* a {
+  color: #11999E;
+  }*/
+
+p {
+  line-height: 2;
+  overflow: hidden;
+}
+
+hr {
+  border: dotted #11999E 6px;
+  border-bottom: none;
+  margin: 70px auto;
+  width: 15%
+}
+
+a {
+color: #ffa299;
+font-family: 'Montserrat', sans-serif;
+margin: 10px 20px;
+text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.about {
+  width: 72%;
+  margin: auto;
+}
+.boi {
+  font-weight: normal;
+}
+/*.skill-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;*/
+
+.pic {
+  width:25%;
+  height: auto;
+}
+
+.camera {
+  border-radius: 50%;
+  width: 30%;
+  float:left;
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 60px;
+}
+
+.food {
+  border-radius: 50%;
+  width: 35%;
+  float:right;
+  margin-left: 30px;
+  margin-top: 60px;
+
+/* can use
+clear:left;
+as an "anti-float" property. It will unfloat the units that was suppose
+to be next to the image. And put it below.  */
+}
+
+/*.food-bio {
+  clear:right;
+}*/
+
+.skill {
+  margin: 100px 30px 100px 30px;
+  text-align: right;
+}
+
+.skill-row {
+  margin: 100px 30px 100px 30px;
+  text-align: left;
+}
+
+.top {
+  background-color: #aacdbe;
+  /*line-height: 200%;
+  /*padding: 20px;
+  border: solid 10px;
+  margin: 10px;
+  */
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  /*width: 200px;
+  height: 200px;*/
+  background-color: #fbc687;
+  margin: 100px;
+}
+
+.bottom-container {
+/*  width: 200px;
+  height: 200px;*/
+  background-color: #f4f7c5;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.contact-message {
+  width: 60%;
+  margin:auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 100px;
+  bottom: 100px;
+}
+
+.copyright {
+  color: #66BFBF;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
+
+.btn {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #488585);
+   background-image: -moz-linear-gradient(top, #66BFBF, #488585);
+   background-image: -ms-linear-gradient(top, #66BFBF, #488585);
+   background-image: -o-linear-gradient(top, #66BFBF, #488585);
+   background-image: linear-gradient(to bottom, #66BFBF, #488585);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Montserrat, sans-serif;
+   font-size: 16px;
+   padding: 7px;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 0px;
+   background: #8AF9F9;
+   background-image: -webkit-linear-gradient(top, #8AF9F9, #64B4B4);
+   background-image: -moz-linear-gradient(top, #8AF9F9, #64B4B4);
+   background-image: -ms-linear-gradient(top, #8AF9F9, #64B4B4);
+   background-image: -o-linear-gradient(top, #8AF9F9, #64B4B4);
+   background-image: linear-gradient(to bottom, #8AF9F9, #64B4B4);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
